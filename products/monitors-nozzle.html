@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M-TECH | Hariom Engineering Works</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;600;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style/style.css">
+  <style>
+    .main-products{
+      background-color: #f5f5dc;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      background: url(../../pictures/minimal-bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    .product-section{
+      display: grid;
+      
+      column-gap: 4vmax;
+      padding: 3vmax 0;
+
+      grid-template-columns: 1fr 1fr;
+    }
+    .fire-Hoses, .fittings{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .product-article{
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+      border-bottom: 0.3vmax solid #a5233d;
+      border-radius: 0.5vmax;
+      overflow: hidden;
+      position: relative;
+    }
+    .big-pic{
+      display: flex;
+      background: linear-gradient(0deg, #27213cce, #f5f5dcce, #a5233ddd);
+    }
+    .product-article>h2{
+      font-size: 1.5vmax ;
+      margin: 0.4vmax 0 0.4vmax 0.2vmax;
+      color: #27213c;
+    }
+    .small-pic{
+      display: flex;
+      flex-direction: column;
+      
+    }
+
+    .spic-1{
+      background-color: #27213cc8;
+      margin:1vmax 0 1vmax 0 ;
+    }
+    .product-btn{
+      position: absolute; 
+      bottom: 0.4vmax; 
+      right: -6vmax; 
+      font-size: 1vmax; 
+      padding: 0.3vmax 1vmax; 
+      border: none; 
+      background-color: #a5233dd7; 
+      color: #f5f5dc; 
+      border-radius: 0.2vmax;  
+      transition-duration: 0.5s;
+      text-decoration: none;
+    }
+    .product-article:hover .product-btn{
+      right: 0.3vmax;
+      transition-duration: 0.5s;
+    }
+  </style>
+</head>
+<body>
+  <div class="main-section">
+    <div class="contact-details">
+      <ul class="contact-list">
+        <li class="contact-us">Contact Us</li>
+        <div class="sec-1">
+          <img style="width: 1.5vmax;" src="../icons/call-icon.svg" alt="">
+          <div class="numbers">
+            <li class="num1">9773736208</li>
+            <li class="num2">9350705144</li>
+            <li class="num3">9312010833</li>
+          </div>
+        </div>
+
+        <div class="sec-2">
+          <img style="width: 1.5vmax;" src="../icons/email-icon.svg" alt="">
+          <li class="email-1">hariomew@gmail.com</li>
+        </div>
+        
+      </ul>
+      <a class="sale-btn" href="">CONTACT FOR SALES</a>
+      
+    </div>
+    <div class="header" id = "nav-section">
+      <div class="header-container">
+        <div style="display: flex; justify-content: center;  color: #27213c; flex-direction: column; ">
+          <h1 style=" font-size: 2.5vmax; position: relative; line-height: 2vmax;">
+            <span style="-webkit-text-stroke-width: 0.2vmax; color: #27213c; -webkit-text-fill-color: transparent; ">M
+            </span>-TE
+            <span style="-webkit-text-stroke-width: 0.2vmax; color: #a5233d; -webkit-text-fill-color: transparent;">
+              C
+            </span>
+            H
+            <img src="../icons/registered-icon.svg" alt="" style="position: absolute; right:-0.5vmax; top: 0; width: 0.5vmax;">
+            
+          </h1>
+          <p style=" font-size: 0.6vmax; top: 0; left: 0; font-weight: 600; font-style: italic;">your <span style="color: #a5233d;">safety</span> is our aim</p>
+          
+        </div>
+        <div style="flex: 1;">
+
+        </div>
+        <div style="display: flex; justify-content: end; align-items: center;">
+          <h3 style="color: #27213c; text-align: center; font-size: 1vmax;">
+            <span style="display: block; font-size: 2vmax; line-height: 2.5vmax; font-size: 3vmax;">Hariom</span> Engineering Works
+          </h3>
+          <img style="width: 3vmax; height: 3vmax;" src="../icons/ISO-certified-icon.svg" alt="">
+        </div>
+      </div>
+      
+    </div>
+    <nav class="navbar">
+      <ul class="nav-items">
+        <li class="nav-list">
+          <a class="nav-anchor" href="../index.html">HOME</a>
+        </li>              
+        <li class="nav-list">
+          <a class="nav-anchor" href="../about-us.html">ABOUT US</a>
+        </li>
+        <li class="nav-list">
+          <a class="nav-anchor list" id="product">PRODUCTS <img src="../icons/forward-arrow.svg" alt=""></a>
+          <ul class="nav-inner-list">
+            <li class="inner-catagory">
+              <a class="inner-active" href="hose-fitting.html">Fire Hoses & Fittings</a>
+            </li>
+            <li class="inner-catagory">
+              <a class="inner-active" href="hose-reel-drums.html">Hose Reel & Cabinets</a>
+            </li>
+            <li class="inner-catagory">
+              <a class="inner-active" href="sprinklers.html">Fire Sprinkler System</a>
+            </li>
+            <li class="inner-catagory">
+              <a class="inner-active" href="hose-nozzle.html">Hose Nozzles</a>
+            </li>
+            <li class="inner-catagory">
+              <a class="inner-active" href="monitors-nozzle.html">Monitors & Nozzles</a>
+            </li>
+            <li class="inner-catagory">
+              <a class="inner-active" href="valves.html">Valves</a>
+            </li>
+          </ul>
+        </li>              
+        <li class="nav-list">
+          <a class="nav-anchor" href="../know-your-product.html">KNOW YOUR PRODUCTS</a>
+        </li>              
+        <li class="nav-list">
+          <a class="nav-anchor" href="../downloads.html">DOWNLOADS</a>
+        </li>              
+        <li class="nav-list">
+          <a class="nav-anchor" href="../blogs.html">BLOGS</a>
+        </li>              
+        <li class="nav-list">
+          <a class="nav-anchor" href="../contact-us.html">CONTACT US</a>
+        </li>
+      </ul>
+    </nav>
+    <div style="width: 100%; overflow: hidden;  display: flex; justify-content: center; align-items: center; background-image: url(../pictures/monitor-bg-image.png);  background-repeat: no-repeat; background-position: center; background-size: cover; ">
+      <div style="display: flex; background: linear-gradient(45deg, rgba(165, 35, 61, 0.7), rgba(245, 245, 220, 0.7)); background-size: contain; justify-content: center; flex-direction: column; align-items: center; color: #27213c; padding: 8vw; width: 100%; ">
+        <h1 style="font-size: 3vmax; " >Fire Monitor & Nozzles</h1>
+        <div style="font-size: 2vmax;" >
+          <span>Products</span><span>/</span>
+          <span>Fire Monitor & Nozzles</span>
+        </div>
+      </div>
+    </div>  
+    <main class="main-products">
+      <section class="product-section">
+        <article class="fire-Hoses">
+          <div class="product-article">
+            <picture class="big-pic">
+              <div class="bpic-1">
+                <img style="width: 20vmax; height: 30vmax; object-fit: contain;" src="../pictures/monitor.png" alt="M-Tech Water Monitor">
+              </div>
+              <picture class="small-pic">
+                <div class="spic-1">
+                  <img style="width: 4vmax; height: 5vmax; object-fit: contain;"  src="../pictures/monitor.png" alt="">
+                </div>
+                <div class="spic-1">
+                  <img style="width: 4vmax; height: 5vmax; object-fit: contain;"  src="../pictures/trolley-monitor.png" alt="">
+                </div>
+              </picture> 
+           </picture>
+           <h2>Fire Monitor</h2>
+           <a class="product-btn" href="fire-fighting-products/monitor-and-nozzles.html">Click</a>
+          </div>  
+        </article>
+        <article class="fittings">
+          <div class="product-article">
+            <picture class="big-pic">
+              <div class="bpic-1">
+                <img style="width: 20vmax; height: 30vmax; object-fit: contain;" src="../pictures/monitor-nozzle.png" alt="M-Tech Monitor Nozzle">
+              </div>
+              <picture class="small-pic">
+                <div class="spic-1">
+                  <img style="width: 4vmax; height: 5vmax; object-fit: contain;"  src="../pictures/monitor-nozzle.png" alt="">
+                </div>
+                <div class="spic-1">
+                  <img style="width: 4vmax; height: 5vmax; object-fit: contain;"  src="../pictures/gm-nozzle-monitor.png" alt="">
+                </div>
+              </picture> 
+           </picture>
+           <h2>Water Monitor Nozzles</h2>
+           <a class="product-btn" href="fire-fighting-products/monitor-and-nozzles.html">Click</a>
+          </div>
+          
+        </article>
+      </section>
+    </main>
+    <div class="footer">
+      <div class="footer-container">
+        <div class="left-most">
+          <div style="position: relative;">
+            <h1 style=" font-size: 2.5vmax; position: relative; line-height: 2vmax;">
+              <span style="-webkit-text-stroke-width: 0.2vmax; color: #f5f5dc; -webkit-text-fill-color: transparent; ">M
+              </span>-TE
+              <span style="-webkit-text-stroke-width: 0.2vmax; color: #a5233d; -webkit-text-fill-color: transparent;">
+                C
+              </span>
+              <span style="position: relative;">
+                H
+                <img src="../icons/registered-icon.svg" alt="" style="position: absolute; right:-0.5vmax; top: 0; width: 0.5vmax;">
+              </span>
+            </h1>
+          </div>
+          <p style="margin-top: 3vmax; font-size: 0.8vmax;">Manufacturing Since 2005</p>
+        </div>
+        <div class="mid">
+          <div class="mid-title">
+            <img style="width: 1.5vmax;" src="../icons/office-buildings-icon-white.svg" alt="">
+            <h3 style="margin-left: 1vmax; font-size: 1vmax;">Office</h3>
+          </div>
+          <div class="contact-us-footer">
+            <div class="address">
+              <img style="width: 1vmax;" src="../icons/address-location-icon.svg" alt="">
+              <div style="margin-left: 0.7vmax; margin-bottom: 0.7vmax; font-size: 0.8vmax;">
+                <p>HARIOM ENGINEERING WORKS,</p>
+                <p style="margin-top: 0.3vmax;">Z-7, Industrial Area, Street No.4, Nai Basti Anand Parbat</p>
+                <p>New Delhi-110005</p>
+                <p>India</p>
+              </div>
+            </div>
+            <div class="email">
+              <img style="width: 1vmax;" src="../icons/email-icon-black.svg" alt="" aria-placeholder="email">
+              <p style="margin-left: 0.7vmax;">hariomew@gmail.com</p>
+            </div>
+            <div class="email mobile">
+              <img style="width: 1vmax;" src="../icons/call-icon.svg">
+              <p style="margin-left: 0.7vmax;">9953637128</p>
+            </div>
+          </div>
+        </div>
+        <div class="right-most">
+          <div class="links">
+            <img style="width: 1.5vmax;" src="../icons/link-icon.svg" alt="">
+            <h3 style="margin-left: 1vmax; font-size: 1vmax;">Links</h3>
+          </div>
+          <ul class="link-list">
+            <li class="footer-link">
+              <img style="width: 0.7vmax;" src="../icons/forward-arrow.svg" alt="">
+              <a class="link-content" href="../index.html">Home</a>
+            </li>
+            <li class="footer-link">
+              <img style="width: 0.7vmax;" src="../icons/forward-arrow.svg" alt="">
+              <a class="link-content" href="../about-us.html">About us</a>
+            </li>
+            <li class="footer-link">
+              <img style="width: 0.7vmax;" src="../icons/forward-arrow.svg" alt="">
+              <a class="link-content" href="../products.html">Products</a>
+            </li>
+            <li class="footer-link">
+              <img style="width: 0.7vmax;" src="../icons/forward-arrow.svg" alt="">
+              <a class="link-content" href="../contact-us.html">Contact us</a>
+            </li>
+          </ul>
+        </div>
+        <div class="last-one">
+          <div class="last-footer-container">
+            <img style="width: 1.5vmax;" src="../icons/newsletter-icon.svg" alt="">
+            <h3 style="margin-left: 1vmax; font-size: 1vmax;">Newsletter</h3>
+          </div>
+          <div class="input">
+            <img style="width: 1.2vmax;" src="../icons/email-icon-black.svg" alt="">
+            <input class="input-email" type="email" placeholder="Enter your email">
+            <button class="send-btn">
+              <img style="width: 1.2vmax;" src="../icons/send-email-icon.svg" alt="">
+            </button>
+          </div>
+          <div class="social-links">
+            <div class="icons">
+              <a href=""><img style="width: 3vmax;" src="../icons/instagram-og-icon.svg" alt=""></a>
+            </div>
+            <div class="icons">
+              <a href=""><img style="width: 3vmax;" src="../icons/facebook-og-icon.svg" alt=""></a>
+            </div>
+            <div class="icons">
+              <a href=""><img style="width: 3vmax;" src="../icons/linkedin-og-icon.svg" alt=""></a> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../script/script.js"></script>
+  <script>
+    const spicEl = document.querySelectorAll(".fire-Hoses .spic-1>img");
+    const bpicEl = document.querySelector(".fire-Hoses .bpic-1>img");
+
+    spicEl.forEach((value, i)=>{
+      value.addEventListener("click", ()=>{
+        bpicEl.src = value.src;
+      })
+    })
+
+    const fittingEl = document.querySelectorAll(".fittings .spic-1>img");
+    const bpicElfitting = document.querySelector(".fittings .bpic-1>img");
+    fittingEl.forEach((value, i)=>{
+      value.addEventListener("click", ()=>{
+        bpicElfitting.src = value.src;
+      })
+    })
+  </script>
+</body>
+</html>
