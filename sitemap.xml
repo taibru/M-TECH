@@ -31,7 +31,7 @@
 
     <!-- know your product Page -->
     <url>
-        <lochttps://taibru.github.io/M-TECH/know-your-product.html</loc>
+        <loc>https://taibru.github.io/M-TECH/know-your-product.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
