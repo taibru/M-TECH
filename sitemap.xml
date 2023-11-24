@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Home Page -->
+    <url>
+        <loc>https://taibru.github.io/m-tech</loc>
+        <changefreq>never</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- About Page -->
+    <url>
+        <loc>https://taibru.github.io/m-tech/about-us.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Contact Page -->
+    <url>
+        <loc>https://taibru.github.io/m-tech/contact-us.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- product Page -->
+    <url>
+        <loc>https://taibru.github.io/m-tech/products.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- know your product Page -->
+    <url>
+        <loc>https://taibru.github.io/m-tech/know-your-product.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- download Page -->
+    <url>
+        <loc>https://taibru.github.io/m-tech/dounloads.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- blogs Page -->
+    <url>
+        <loc>https://taibru.github.io/m-tech/blogs.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- ms-fabrication Page -->
+    <url>
+        <loc>https://taibru.github.io/m-tech/ms-fabrication.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- hose-fitting Page -->
+    <url>
+        <loc>https://taibru.github.io/m-tech/products/hose-fitting.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- hose nozzles Page -->
+    <url>
+        <loc>https://taibru.github.io/m-tech/products/hose-nozzle.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- hose reel drums Page -->
+    <url>
+        <loc>https://taibru.github.io/m-tech/products/hose-reel-drums.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Monitor nozzles Page -->
+    <url>
+        <loc>https://taibru.github.io/m-tech/products/monitor-nozzle.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- sprinklers Page -->
+    <url>
+        <loc>https://taibru.github.io/m-tech/products/sprinklers.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- valves Page -->
+    <url>
+        <loc>https://taibru.github.io/m-tech/products/valves.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- all sprinkler Page -->
+    <url>
+        <loc>https://taibru.github.io/m-tech/products/fire-fighting-products/fire-sprinkler.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- all hose reels and cabinet Page -->
+    <url>
+        <loc>https://taibru.github.io/m-tech/products/fire-fighting-products/hose-reel-drum-cabinet.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- all hydrant valves and connections Page -->
+    <url>
+        <loc>https://taibru.github.io/m-tech/products/fire-fighting-products/hydrant-valve-and-connections.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- all monitor and nozzles Page -->
+    <url>
+        <loc>https://taibru.github.io/m-tech/products/fire-fighting-products/monitor-and-nozzles.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- all nozzles Page -->
+    <url>
+        <loc>https://taibru.github.io/m-tech/products/fire-fighting-products/nozzles.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- all rrl hoses and fittings Page -->
+    <url>
+        <loc>https://taibru.github.io/m-tech/products/fire-fighting-products/RRL-hose-fittings.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>
