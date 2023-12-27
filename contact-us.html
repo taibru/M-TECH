@@ -219,7 +219,7 @@
           </div>
           
         </div>
-        <form action="sendMail" method="post" style="width: 45%; font-size: 1vmax;">
+        <form action="http://localhost:8080/send-mail-1/sendMail" method="post" onsubmit="sendData($event)" style="width: 45%; font-size: 1vmax;">
           <h1>Reach Out To Us</h1>
           <input id="name" name="fname" type="text" placeholder="Enter First Name" style="background-color: transparent; padding: 0.5vmax; border-radius: 0.5vmax; outline: none; width: 80%; margin: 0.5vmax 0 0.5vmax 0; border: 0.1vmax solid #a5233d; caret-color: #a5233d; color: #27213c; font-size: 1vmax;" required>
           <br>
@@ -231,7 +231,7 @@
           <br>
           <textarea required name="body" id="" cols="30" rows="10" placeholder="Any Query/Suggestion" style="background-color: transparent; outline: none; border: 0.1vmax solid #a5233d; caret-color: #a5233d; color: #27213c; font-size: 0.8vmax; margin: 0.5vmax 0 0.5vmax 0; width: 80%; resize: none; padding: 0.5vmax; border-radius: 0.5vmax;"></textarea>
           <br>
-          <input style="padding: 0.5vmax 1vmax; font-size: 1vmax; border: 0.1vmax solid #a5233d; background-color: transparent; border-radius: 0.5vmax; color: #a5233d;" value="Send" type="submit">
+          <input style="padding: 0.5vmax 1vmax; font-size: 1vmax; border: 0.1vmax solid #a5233d; background-color: transparent; border-radius: 0.5vmax; color: #a5233d;"  type="submit" value="Send">
         </form>
       </div>
     </div>
@@ -329,7 +329,22 @@
       </div>
     </div>
   </div>
+  <script>
+    function sendData(event){
+      event.preventDefault();
+
+      const form = document.querySelector('form');
+      const formData = new FormData(form);
+
+      fetch(form.action, {
+        method: action.method,
+        body: formData
+      }).then(response=>{
+        console.log(response);
+      }).catch(error=>{console.log(error)});
+    }
+
+  </script>
   <script src="script/script.js"></script>
-  <script src="mail.js"></script>
 </body>
 </html>
